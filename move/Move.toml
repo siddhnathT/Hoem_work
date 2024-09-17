@@ -1,0 +1,16 @@
+[package]
+name = "vault_contract"
+version = "1.0.0"
+authors = []
+
+[addresses]
+the_vault="9b23f6fe7b1a358f68a37ea986c6a7368b09d9eaab0c918a30b0accfda4687c4"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
